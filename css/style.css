@@ -44,7 +44,13 @@ border-radius: 50px;
     display: block;
     margin: 0 auto;
     margin-top: 5%;
-   
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+
+  .profile img{
+    width: 100%; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Ajuste o tamanho conforme necessário */
   }
 
   p {
@@ -145,11 +151,12 @@ align-items: center;
 
 .text-center, .h2-coluna1{
   text-align: center;
+  align-items: center;
 
 }
 
 .bloco-2-content {
-  column-count: 3;
+  column-count: 2;
   display: flexbox;
   justify-content: space-between;
   align-items: center;
@@ -159,32 +166,28 @@ align-items: center;
 .coluna-esquerda {
   align-items: center;
   flex-direction: column;
-  max-width: 500px; 
+  max-width: 550px; 
   flex: 1; /* Ocupar 50% do espaço disponível */
-  margin-right: 25px; /* Adicionar um espaço entre as colunas */
+   /* Adicionar um espaço entre as colunas */
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .coluna-direta {
   flex: 1; /* Ocupar 50% do espaço disponível */
   display: flex;
   flex-direction: column;
-  max-width: 500px; 
-  margin-right: 25px;
+  max-width: 550px; 
+ margin-left: 60px;
+ margin-right: 50px;
+ align-items: center;
   
  
 }
 
-.coluna-direta3 {
-  flex: 1; /* Ocupar 50% do espaço disponível */
-  display: flex;
-  flex-direction: column;
-  max-width: 500px; 
-  margin-right: 255px;
-  margin-right: 25px;
-}
-
 .text-coluna2{
  text-align: center;
+align-items: center;
 }
 
 
